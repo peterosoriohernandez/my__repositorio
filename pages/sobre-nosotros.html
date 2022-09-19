@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="../img/logo-pestana2.png">
+    <link rel="icon" href="../img/logo-pestana3.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -22,29 +26,68 @@
     <div class="container__2">
 
       <!--ENCABEZADO-->
-        <header class="header__2">>
-            <div class="wrap__2">
-                <div class="logo__h1">
-                    <a href="../index.html">
-                        <img src="../img/tequetok.png" alt="Inicio">
-                    </a>
-                </div>
+      <header class="header__2">>
+        <div class="wrap__2">
+            <div class="logo__h1 animate__animated animate__rubberBand">
+                <a href="./index.html">
+                    <img src="../img/tequetok.png" alt="Inicio">
+                </a>
+            </div>
 
-                <div class="titulo__h2">
-                    <h2>
-                        Sabores y aromas de nuestra tierra
-                    </h2>
-                </div>
+            <div class="titulo__h2">
+                <h2>
+                    Sabores y aromas de nuestra tierra
+                </h2>
+            </div>
 
-                <div class="p__sobre">
+            <div class="p__sobre">
+                <p>
+                    <a href="./sobre-nosotros.html">sobre nosotros</a>
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+    <!--BARRA DE NAVEGACION RESPONSIVE-->
+
+    <div id="layaut nav__responsive-l">
+        <div class="nav__bar nav__bar-responsive">
+        <nav class="navbar navbar-expand-lg bg-light nav__bart nav__responsive-b">
+            <div class="container-fluid nav__bar-1 animate__animated animate__rubberBand">
+              <a class="navbar-brand link__rel" href="../index.html">
+                <img src="../img/tequetok.png" alt="inicio">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav__flex" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./productos.html">Menú</a>
+                  </li>
+                  <li class="nav-item #nav__item-1">
+                    <a class="nav-link active margin__1" href="./promociones.html">Promociones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./locales.html">Locales</a>
+                  </li>
+                  <li class="nav-item active__li">
+                    <a href="./contacto.html" class="nav-link active">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="algo__mas-cont">
+                <div class="algo__mas">
                     <p>
                         <a href="./sobre-nosotros.html">sobre nosotros</a>
                     </p>
-                </div>
-
+                  </div>
+              </div>
             </div>
-        </header>
-
+          </nav>
+        </div>
          <!--MENÚ-->
         <nav class="nav">
             <ul>
@@ -94,64 +137,63 @@
         </div>
 
 
-         <!--FOOTER-->
-        <footer class="footer__adobe">
+          <!--FOOTER-->
+          <footer class="footer__adobe">
 
             <div class="waves">
-              <div class="wave" id="wave1"></div>
-              <div class="wave" id="wave2"></div>
-              <div class="wave" id="wave3"></div>
-              <div class="wave" id="wave4"></div>
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
             </div>
-  
-              <ul class="ul__adobe">
+
+            <ul class="ul__adobe">
                 <li>
-                  <a href="https://instagram.com/tequetok.ar/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
+                    <a href="https://instagram.com/tequetok.ar/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                  </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
                 </li>
-              </ul>
-  
-              <ul class="ul__adobe-1">
+            </ul>
+
+            <ul class="ul__adobe-1">
                 <li>
-                  <a href="#">Contacto</a>
+                    <a href="./contacto.html">Contacto</a>
                 </li>
-  
+
                 <li>
-                  <a href="#">Sobre nosotros</a>
+                    <a href="./sobre-nosotros.html">Sobre nosotros</a>
                 </li>
-  
+
                 <li>
-                  <a href="#">Locales</a>
+                    <a href="./locales.html">Locales</a>
                 </li>
-  
+
                 <li>
-                  <a href="#">Menú</a>
+                    <a href="./productos.html">Menú</a>
                 </li>
-              </ul>
-  
-              <div class="linea__adobe">
+            </ul>
+
+            <div class="linea__adobe">
                 <hr>
                 <p>
-                  Todos los derechos reservados - Tequetok.ar
+                    Todos los derechos reservados - Tequetok.ar
                 </p>
-              </div>
-  
-  
-  
-  
-          </footer>
+            </div>
 
+
+
+
+        </footer>
     </div>
 
 
